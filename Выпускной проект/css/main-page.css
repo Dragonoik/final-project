@@ -1,0 +1,48 @@
+.main{
+	display: flex;
+	justify-content: center;
+}
+
+.carousel{
+	background-color: #bbbbf7;
+	width: 60%;
+	height: 500px;
+}
+
+.carousel div{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20px;
+
+}
+
+.carousel img{
+	width: 100%;
+}
+
+.carousel p{
+	margin: 0;
+	margin-top: -30px;
+}
+
+.slide {
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.firstSlide {
+	opacity: 1;
+	z-index: 2;
+}
+
+.arrow {
+	position: relative;
+	font-size: 300%;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 3;
+}
